@@ -28,18 +28,13 @@ This repository contains the code and resources for an **AI-Driven Animal Health
 ## Getting Started (Google Colab)
 
 1. Open the notebook in **Google Colab** (upload it or open from GitHub).
-2. If your dataset is stored in Google Drive, mount Drive:
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-
-3. Update dataset paths in the notebook if required.
-
+2. If the notebook reads a dataset file (CSV/XLSX), upload it into Colab using the file uploader, or ensure the dataset file is present in the repo.
+3. Update the dataset file path in the notebook if needed.
 4. Run the notebook cells in order:
-  - Data loading + preprocessing (encoding/scaling)
-  - Model training (SVM) + hyperparameter tuning
-  - Evaluation (confusion matrix, precision/recall, etc.)
-  - Predictions on sample inputs
+   - Data loading + preprocessing (encoding/scaling)  
+   - Model training (SVM) + hyperparameter tuning  
+   - Evaluation (confusion matrix, precision/recall, etc.)  
+   - Predictions on sample inputs  
 
 
 ## Output Example
